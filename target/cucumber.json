@@ -1,0 +1,255 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-02T13:35:58.067Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.Hook.beforevalidation(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Header Basarili login",
+        "description": "",
+        "id": "website-header-login-feature;header-basarili-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 174091600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.Hook.afterTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3325581100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser anasayfa kal",
+            "match": {
+              "location": "Steps.LoginStep.browser_anasayfa_kal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2108207500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "giris yap hyperlink tikla",
+            "match": {
+              "location": "Steps.LoginStep.giris_yap_hyperlink_tikla()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20005600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sayfanin title ve url kontrol et",
+            "match": {
+              "location": "Steps.LoginStep.sayfanin_title_kontrol_et()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118991900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici bilgisi \"habermerkezi@arabam.com\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "habermerkezi@arabam.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.LoginStep.kullanici_bilgisi_something_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97997500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici password \"Arb921!35\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Arb921!35",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.LoginStep.kullanici_password_something_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84564400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "beni hatirla checkbox tikla",
+            "match": {
+              "location": "Steps.LoginStep.beni_hatirla_checkbox_tikla()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-02T13:36:04.037Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.Hook.beforevalidation(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Header Basarili login",
+        "description": "",
+        "id": "website-header-login-feature;header-basarili-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 152502900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.Hook.afterTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3609331800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser anasayfa kal",
+            "match": {
+              "location": "Steps.LoginStep.browser_anasayfa_kal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273875900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "giris yap hyperlink tikla",
+            "match": {
+              "location": "Steps.LoginStep.giris_yap_hyperlink_tikla()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 338996500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sayfanin title ve url kontrol et",
+            "match": {
+              "location": "Steps.LoginStep.sayfanin_title_kontrol_et()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1664602500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici bilgisi \"5078107815\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5078107815",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.LoginStep.kullanici_bilgisi_something_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106258600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici password \"qaz1234!\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaz1234!",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.LoginStep.kullanici_password_something_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84996900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "beni hatirla checkbox tikla",
+            "match": {
+              "location": "Steps.LoginStep.beni_hatirla_checkbox_tikla()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Website Header Login Feature",
+    "description": "",
+    "id": "website-header-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Login.feature",
+    "tags": []
+  }
+]

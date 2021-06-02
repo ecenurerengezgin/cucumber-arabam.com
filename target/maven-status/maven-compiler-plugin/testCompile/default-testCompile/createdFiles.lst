@@ -1,0 +1,6 @@
+Runner\SignUpTestRunner.class
+Steps\LoginStep.class
+Steps\SignUpStep.class
+Page\Base.class
+Runner\LoginTestRunner.class
+Steps\Hook.class

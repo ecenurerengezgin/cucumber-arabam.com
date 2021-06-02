@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-02T16:35:43 TRT" name="All Test Suite" finished-at="2021-06-02T16:36:10 TRT" duration-ms="27250">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.LoginTestRunner@5eba9e41]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.SignUpTestRunner@306bf4c3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-06-02T16:35:43 TRT" name="C:/Users/ecenur.erengezgin/IdeaProjects/otomasyon-arabamcom" finished-at="2021-06-02T16:36:10 TRT" duration-ms="27250">
+      <class name="Runner.SignUpTestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.SignUpTestRunner@306bf4c3]" started-at="2021-06-02T16:35:43 TRT" name="setUpClass" finished-at="2021-06-02T16:35:44 TRT" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.SignUpTestRunner@306bf4c3]" started-at="2021-06-02T16:35:44 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T16:35:57 TRT" duration-ms="12880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Header Basarili Uyelik Ol"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Website Header Sign-up Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.SignUpTestRunner@306bf4c3]" started-at="2021-06-02T16:35:57 TRT" name="tearDownClass" finished-at="2021-06-02T16:35:58 TRT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.SignUpTestRunner -->
+      <class name="Runner.LoginTestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.LoginTestRunner@5eba9e41]" started-at="2021-06-02T16:35:58 TRT" name="setUpClass" finished-at="2021-06-02T16:35:58 TRT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.LoginTestRunner@5eba9e41]" started-at="2021-06-02T16:35:58 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T16:36:04 TRT" duration-ms="5962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Header Basarili login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Website Header Login Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.LoginTestRunner@5eba9e41]" started-at="2021-06-02T16:36:04 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-02T16:36:10 TRT" duration-ms="6251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Header Basarili login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Website Header Login Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.LoginTestRunner@5eba9e41]" started-at="2021-06-02T16:36:10 TRT" name="tearDownClass" finished-at="2021-06-02T16:36:10 TRT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.LoginTestRunner -->
+    </test> <!-- C:/Users/ecenur.erengezgin/IdeaProjects/otomasyon-arabamcom -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
